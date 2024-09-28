@@ -1,0 +1,4 @@
+-- TRUNCATE TABLE my_user CASCADE;
+--
+-- INSERT INTO my_user (id, user_name, email, password, is_agreed_to_terms) VALUES
+-- (59,'ike22er', 'Amanda@gmail.com', 'password', TRUE);
