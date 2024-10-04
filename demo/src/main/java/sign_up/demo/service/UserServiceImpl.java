@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
     private final ModelMapper modelMapper;
 
     private static final String PASSWORD_REGEX = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}$";
-    String EmailFormat = "At least something like this: A1b@2020";
+    String EmailFormat = "A1b@2020";
     @Autowired
     public UserServiceImpl(UserRepository userRepository,
                            ModelMapper modelMapper) {
