@@ -31,6 +31,9 @@ jobs:
           mvn -B package --file pom.xml
 
           # pushing to docker
+        # You need to replace this with your own dockerhub credentials
+      - run:
+        name: Authenticate to Docker Hub
 
 
 
